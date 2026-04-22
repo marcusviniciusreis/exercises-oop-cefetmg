@@ -5,6 +5,11 @@ import java.util.ArrayList;
 public class Espaco2D {
     private ArrayList<Forma> formas;
 
+
+    public Espaco2D() {
+        this.formas = new ArrayList<>();
+    }
+
     public Espaco2D(ArrayList<Forma> formas) {
         this.formas = formas;
     }
