@@ -13,7 +13,11 @@ public abstract class Forma {
         }else if (pontos.length == 3){
             return  new Triangulo(pontos);
         }else if (pontos.length == 4){
-            if ((pontos[0]==pontos[1]) && (pontos[1]==pontos[2]) && (pontos[2]==pontos[3]) && (pontos[0]==pontos[3])){
+            double lado1 = pontos[0].calcularDistancia(pontos[1]);
+            double lado2 = pontos[1].calcularDistancia(pontos[2]);
+            double lado3 = pontos[2].calcularDistancia(pontos[3]);
+            double lado4 = pontos[3].calcularDistancia(pontos[0]);
+            if ((lado1==lado2) && (lado2==lado3) && (lado3==lado4) && (lado4==lado1)){
                 return new Quadrado(pontos, pontos[0].calcularDistancia(pontos[1]));
             }else {
                 System.out.println("Sua forma nao é um quadrado!");
