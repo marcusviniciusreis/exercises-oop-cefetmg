@@ -8,7 +8,7 @@ public class Titulo extends Contas{
 
     @Override
     public double getValorAPagar(int diaPagamento, int mesPagamento) {
-        if ((diaPagamento > dia) && (mesPagamento > mes)){
+        if (((diaPagamento > dia) && (mesPagamento > mes) || ((diaPagamento <= dia) && (mesPagamento > mes)))){
             return valor + (valor*0.1);
         }else
             return valor;
