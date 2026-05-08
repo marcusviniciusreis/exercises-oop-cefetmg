@@ -1,4 +1,4 @@
-package projects.contabilidade.domain;
+package projects.contabilidade.empregados;
 
 public abstract class Funcionario implements Passivo{
     protected String nome;

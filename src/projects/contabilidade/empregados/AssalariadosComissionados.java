@@ -1,4 +1,4 @@
-package projects.contabilidade.domain;
+package projects.contabilidade.empregados;
 
 public class AssalariadosComissionados extends Comissionados{
      private double bonus = 0.1;

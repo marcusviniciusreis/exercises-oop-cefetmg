@@ -1,4 +1,4 @@
-package projects.contabilidade.domain;
+package projects.contabilidade.empregados;
 
 public class Assalariado extends Funcionario{
     private double horasExtras;

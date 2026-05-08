@@ -1,4 +1,4 @@
-package projects.contabilidade.domain;
+package projects.contabilidade.empregados;
 
 public interface Passivo {
     double SALARIO = 1621;

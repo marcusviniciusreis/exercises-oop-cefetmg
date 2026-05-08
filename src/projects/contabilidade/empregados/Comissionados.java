@@ -1,4 +1,4 @@
-package projects.contabilidade.domain;
+package projects.contabilidade.empregados;
 
 public class Comissionados extends Funcionario{
     private double valorVendas;

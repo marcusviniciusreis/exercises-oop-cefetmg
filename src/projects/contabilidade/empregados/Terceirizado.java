@@ -1,4 +1,4 @@
-package projects.contabilidade.domain;
+package projects.contabilidade.empregados;
 
 public class Terceirizado extends Funcionario{
     private double horasTrabalhadas;
