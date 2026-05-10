@@ -10,6 +10,9 @@ public class ProfissionalSaude extends MembroDelegacao{
 
     @Override
     public String exibirDados() {
-        return "";
+        return "Nome: "+nome+
+                "Genero: "+genero+
+                "idade: "+idade+
+                "Atividade: "+especialidade;
     }
 }
