@@ -12,8 +12,8 @@ public class ComissaoTecnica extends MembroDelegacao{
     @Override
     public String exibirDados() {
         return "Nome: "+nome+
-                "Genero: "+genero+
-                "idade: "+idade+
-                "Atividade: "+atividade;
+                "\nGenero: "+genero+
+                "\nIdade: "+idade+
+                "\nAtividade: "+atividade;
     }
 }

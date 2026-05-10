@@ -7,8 +7,10 @@ public class Atleta extends MembroDelegacao{
 
     @Override
     public String exibirDados() {
-        return "Nome: "+nome+
-                "Genero: "+genero+
-                "Idade: "+idade;
+        return "ATLETA" +
+                "\nNome: "+nome+
+                "\nGenero: "+genero+
+                "\nIdade: "+idade;
+
     }
 }
