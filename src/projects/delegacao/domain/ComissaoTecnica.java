@@ -16,4 +16,13 @@ public class ComissaoTecnica extends MembroDelegacao{
                 "\nIdade: "+idade+
                 "\nAtividade: "+atividade;
     }
+    @Override
+    public int getIdade() {
+        return this.idade;
+    }
+
+    @Override
+    public String getNome() {
+        return this.nome;
+    }
 }

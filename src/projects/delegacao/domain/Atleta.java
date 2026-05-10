@@ -13,4 +13,14 @@ public class Atleta extends MembroDelegacao{
                 "\nIdade: "+idade;
 
     }
+
+    @Override
+    public int getIdade() {
+        return this.idade;
+    }
+
+    @Override
+    public String getNome() {
+        return this.nome;
+    }
 }

@@ -11,6 +11,10 @@ public abstract class MembroDelegacao {
         this.idade = idade;
     }
 
+    public abstract int getIdade();
+
+    public abstract String getNome();
+
     public abstract String exibirDados();
 
 }

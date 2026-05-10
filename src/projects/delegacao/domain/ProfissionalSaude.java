@@ -15,4 +15,13 @@ public class ProfissionalSaude extends MembroDelegacao{
                 "\nidade: "+idade+
                 "\nAtividade: "+especialidade;
     }
+    @Override
+    public int getIdade() {
+        return this.idade;
+    }
+
+    @Override
+    public String getNome() {
+        return this.nome;
+    }
 }
